@@ -1,9 +1,9 @@
 const title = "Confecciones Isabella";
-const email = ""; // Información no proporcionada
+const email = "astrid_27_26@hotmail.com";
 const mensajeWhatsApp = encodeURIComponent(
-    "¡Hola! Estoy muy interesado en tus productos de " + title + " y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!"
+    "¡Hola! Estoy interesado en conocer más sobre los productos de " + title + " y me gustaría obtener más información. ¡Gracias!"
 );
-const numeroWhatsApp = ""; // Información no proporcionada
+const numeroWhatsApp = "+573112355134"; // Incluido el prefijo +57
 
 const textos = {
     index: {
@@ -13,8 +13,7 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "Confecciones Isabella ofrece una variedad de sudaderas y buzos, diseñados para que te sientas cómodo y estilizado en cualquier ocasión. Nuestro lema es 'Vístete como si fuera tu día', reflejando nuestro compromiso con la moda y la comodidad.",
-        description2: "En Confecciones Isabella, nos dedicamos a crear prendas que no solo se adapten a tu estilo, sino que también te brinden una experiencia de uso excepcional. Descubre cómo nuestras confecciones pueden transformar tu guardarropa."
+        description1: "En Confecciones Isabella, nos dedicamos a la confección de sudaderas y buzos que te harán sentir cómodo y con estilo. Nuestro lema 'Vístete como si fuera tu día' refleja nuestro compromiso con la moda y la calidad en cada prenda.",
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
@@ -22,14 +21,14 @@ const textos = {
     },
     footer: {
         slogan: {
-            p1: "Vístete como si fuera tu día.",
+            p1: "Vístete como si fuera tu día.", // Slogan proporcionado
             p2: ""
         },
         address: "", // Información no proporcionada
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/",
-        instagram: "https://www.instagram.com/",
+        facebook: "https://www.facebook.com/profile.php?id=61555699916530&mibextid=ZbWKwL", // Enlace específico de Facebook
+        instagram: "https://www.instagram.com/derpol51?igshid=MzRlODBiNWFlZA==", // Enlace específico de Instagram
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
     },
 };
