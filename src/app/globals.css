@@ -4,9 +4,9 @@
 
 :root {
   --background: #ffffff;
-  --secondBackground: #fae3d9;
-  --shadowColor: #d1ad9d;
-  --hoverColor: #a3725c;
+  --secondBackground: #74a6d4;
+  --shadowColor: #629bcf;
+  --hoverColor: #3f88cc;
   --font: Elephant;
 }
 @font-face {
